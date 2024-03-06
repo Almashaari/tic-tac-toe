@@ -1,17 +1,20 @@
 import React from "react";
+import Strike from "./Strike";
+import Tile from "./Tile";
 
 function Board() {
   return (
 <div className="container">
-<div className="white "></div>
-<div className="white left-right"></div>
-<div className="white "></div>
-<div className="white top-bottom"></div>
-<div className="white-5"></div>
-<div className="white top-bottom"></div>
-<div className="white "></div>
-<div className="white left-right"></div>
-<div className="white "></div>
+<Tile />
+<Tile />
+<Tile />
+<Tile />
+<Tile />
+<Tile />
+<Tile />
+<Tile />
+<Tile />
+<Strike />
 </div>
   );
 }
