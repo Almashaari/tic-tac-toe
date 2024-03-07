@@ -1,6 +1,6 @@
 function Strike() {
     return ( <div>
-        <strike></strike>
+        x
     </div> );
 }
 
