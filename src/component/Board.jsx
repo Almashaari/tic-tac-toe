@@ -15,7 +15,7 @@ function Board(props) {
 <Tile value={props.tiles[6]} onClick={()=>props.onTileClick(6)} className='right-border '/>
 <Tile value={props.tiles[7]} onClick={()=>props.onTileClick(7)} className='right-border '/>
 <Tile value={props.tiles[8]} onClick={()=>props.onTileClick(8)}/>
-<Strike />
+<Strike strikeClass={props.strikeClass}/>
 </div>
   );
 }
